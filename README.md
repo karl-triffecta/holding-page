@@ -26,7 +26,7 @@ npm run postinstall
 npm start
 ```
 
-### Build site
+### Build site for release
 
 ```bash
 npm run build
