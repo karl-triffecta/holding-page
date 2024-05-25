@@ -1,1 +1,5 @@
-particlesJS.load("particles-js","assets/particles.json");
+/******/ (() => { // webpackBootstrap
+var __webpack_exports__ = {};
+particlesJS.load('particles-js', 'assets/particles.json');
+/******/ })()
+;

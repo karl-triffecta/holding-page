@@ -2,9 +2,26 @@ const { merge } = require('webpack-merge');
 const common = require('./webpack.common.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const JsonMinimizerPlugin = require("json-minimizer-webpack-plugin");
 
 module.exports = merge(common, {
   mode: 'production',
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new CssMinimizerPlugin(),
+      new JsonMinimizerPlugin(),
+    ],
+  },
+  module: {
+    rules: [
+      {
+        test: /\.json$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './index.html',

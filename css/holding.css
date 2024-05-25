@@ -1,0 +1,149 @@
+body {
+    overflow: hidden;
+  }
+  .particles-container {
+    z-index: 10;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .page-center {
+    z-index: 20;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: transparent;
+    pointer-events: none;
+  }
+  .nunito-sans {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+  .logo-container {
+    position: relative;
+    width: 200px; 
+    height: 100px;
+    margin: 0 auto;
+    left: -3%;
+    pointer-events: none;
+  }
+  .triangle {
+    position: absolute;
+    top: 53%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 85px;
+    height: auto;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 28px;
+    transform: translateY(-50%);
+    font-size: 48px;
+    font-weight: normal;
+  }
+  .subtext {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .soon {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 15px;
+    pointer-events: none;
+  }
+
+  .cookie-consent-banner {
+      display: none;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000;
+  }
+
+  .cookie-consent-banner button {
+      background: #ff9933;
+      border: none;
+      padding: 10px 20px;
+      margin-left: 10px;
+      cursor: pointer;
+  }
+
+  .cookie-consent-banner a {
+      color: #ff9933;
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+  /* Modal styles */
+  .modal {
+      display: none;
+      position: fixed;
+      z-index: 1001;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+  }
+  .modal-content {
+      background-color: #fefefe;
+      margin: 2% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 600px;
+  }
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      margin-right: 5px;
+  }
+  .close:hover,
+  .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+  /* Footer link styles */
+  .footer-link {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000;
+  }
+  .footer-link a {
+      color: #000000;
+  }
