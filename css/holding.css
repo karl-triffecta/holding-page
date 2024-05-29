@@ -39,39 +39,39 @@ body {
 }
 
 .logo-container {
-	position: relative;
-	width: 200px;
 	height: 100px;
-	margin: 0 auto;
-	left: -3%;
-	pointer-events: none;
+    left: -1%;
+    margin: 0 auto;
+    pointer-events: none;
+    position: relative;
+    width: 279px;
 }
 
 .triangle {
-	position: absolute;
-	top: 53%;
-	left: 0;
-	transform: translateY(-50%);
-	width: 85px;
 	height: auto;
+    left: -7px;
+    position: absolute;
+    top: 54%;
+    transform: translateY(-50%);
+    width: 111px;
 }
 
 .text {
-	position: absolute;
-	top: 50%;
-	left: 28px;
-	transform: translateY(-50%);
-	font-size: 48px;
-	font-weight: normal;
+	font-weight: 400;
+    position: absolute;
+    transform: translateY(-50%);
+	font-size: 70px;
+    left: 28px;
+    top: 50%;
 }
 
 .subtext {
-	position: absolute;
-	top: 80%;
-	right: 0;
-	transform: translateY(-50%);
-	font-size: 18px;
-	font-weight: normal;
+	font-size: 27px;
+    right: 0;
+    top: 92%;
+	font-weight: 400;
+    position: absolute;
+    transform: translateY(-50%);
 }
 
 .flex-column {
@@ -80,10 +80,11 @@ body {
 }
 
 .soon {
-	text-align: center;
-	font-size: 70px;
-	margin-top: 15px;
-	pointer-events: none;
+	font-size: 38px;
+    margin-top: 30px;
+    pointer-events: none;
+    text-align: center;
+	font-weight: normal;
 }
 
 /* Cookie */
