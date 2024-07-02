@@ -1,0 +1,41 @@
+body {
+	overflow: auto;
+}
+
+.content {
+	margin: 40px auto;
+	max-width: 800px;
+	padding: 0 20px;
+	z-index: 10;
+    position: relative;
+	background: #ffffff;
+}
+
+.logo-link {
+	color: black;
+}
+
+.contact-container {
+	margin: 40px 0;
+}
+
+.contact-address {
+	font-size: 20px;
+}
+
+.contact-address a {
+	color: #ff9933;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.contact-address a:hover{
+	text-decoration: underline;
+}
+
+
+.footer-links,
+.header-links {
+	position: relative;
+	margin: 10px 0;
+}

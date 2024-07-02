@@ -30,6 +30,18 @@ module.exports = merge(common, {
       filename: 'privacy.html',
       template: './privacy.html',
     }),
+    new HtmlWebpackPlugin({
+      filename: 'cookies.html',
+      template: './cookies.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'contact.html',
+      template: './contact.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'services.html',
+      template: './services.html',
+    }),
     new CopyPlugin({
       patterns: [
         { from: 'img', to: 'img' },

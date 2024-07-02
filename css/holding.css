@@ -162,17 +162,23 @@ body {
 	cursor: pointer;
 }
 
-/* Footer link styles */
+/* Header & Footer link styles */
 
-.footer-link {
+.footer-links,
+.header-links {
 	position: fixed;
-	bottom: 0;
 	width: 100%;
 	padding: 10px 0;
 	text-align: center;
 	z-index: 1000;
 }
 
-.footer-link a {
+.footer-links {
+	bottom: 0;
+}
+
+.footer-links a,
+.header-links a {
 	color: #000000;
 }
+
